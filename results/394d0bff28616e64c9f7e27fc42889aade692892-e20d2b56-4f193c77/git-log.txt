@@ -1,0 +1,1839 @@
+commit 394d0bff28616e64c9f7e27fc42889aade692892
+Author: shaojintian <40530183+shaojintian@users.noreply.github.com>
+Date:   Sun Aug 13 16:24:03 2023 +0800
+
+    1
+
+commit 41332b78dfb50321c29bade65f9d244387f68a60
+Merge: 6bc954d c2925c9
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Wed Nov 24 15:48:29 2021 -0800
+
+    Merge pull request #285 from lijiyao919/master
+    
+    add h5py in requirement.txt and add conda intall atari in readme
+
+commit c2925c9da267d49c62067ccecbe6cb6f8606033d
+Author: Jiyao Li <jiyao.thomas.li@gmail.com>
+Date:   Wed Nov 24 16:45:23 2021 -0700
+
+    add h5py in requirement.txt and add conda intall atari in readme
+
+commit 6bc954d0e4bca08ef68c717b0c19c114081cc86d
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Fri Oct 8 13:06:15 2021 -0700
+
+    Update README.md
+
+commit 1120cdfe94e79294a52486590d9c2bcc5c01730d
+Merge: efc71f6 fefec7b
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Fri Jun 11 22:28:58 2021 -0400
+
+    Merge pull request #270 from HareshKarnan/master
+    
+    change self.clipob to self.clip_obs
+
+commit efc71f600a2dca38e188f18ca85b654b37efd9d2
+Merge: c313ef4 67b0115
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Thu Apr 15 12:42:41 2021 -0400
+
+    Merge pull request #273 from xkianteb/master
+    
+    In FixedNormal method, 'entrop' is typed wrong
+
+commit 67b0115e15323a728f0b79b08418d82949e056ee
+Author: Kiante Brantley <kiante.brantley@gmail.com>
+Date:   Thu Apr 15 12:40:59 2021 -0400
+
+    In FixedNormal method, 'entrop' is typed wrong
+
+commit c313ef49407768b5d044046e0e000d6c9f71869c
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Mon Apr 12 15:21:16 2021 -0400
+
+    Update README.md
+
+commit fefec7b4063244f866ed617ffa4fecd0bcf5b6ff
+Merge: 84270ca 3d895e6
+Author: Haresh <haresh.miriyala@gmail.com>
+Date:   Fri Mar 12 00:19:16 2021 -0600
+
+    Merge pull request #1 from HareshKarnan/observation_clip_sb3
+    
+    Update envs.py
+
+commit 3d895e6f4de2399f0da1f52c38833ce8b6d19007
+Author: Haresh <haresh.miriyala@gmail.com>
+Date:   Fri Mar 12 00:18:56 2021 -0600
+
+    Update envs.py
+    
+    changed clipob to clip_obs , due to switch from stablebaseline to stable_baselines3
+
+commit 84270cae226946b41cd5738cd9ec089cfca8790c
+Author: Ilya Kostrikov <kostrikov@cs.nyu.edu>
+Date:   Wed Feb 24 09:24:28 2021 -0500
+
+    Change dmc wrapper and improve formatting in envs.py.
+
+commit 1951751a03b78307bb60ba542019756ebcb5200c
+Merge: b03eba0 ab87de3
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Sun Feb 7 10:20:26 2021 -0500
+
+    Merge pull request #265 from hotco87/ob_rms_modify
+    
+    ob_rms_to_obs_rms
+
+commit ab87de33eea23a727f7be1e1e936e30f71e1a4cc
+Author: HoTaek Joo <ureca87@gmail.com>
+Date:   Sun Feb 7 16:10:40 2021 +0900
+
+    ob_rms_to_obs_rms
+
+commit b03eba0158b59d0b2412e2844a68b9115508066a
+Author: Ilya Kostrikov <kostrikov@cs.nyu.edu>
+Date:   Thu Feb 4 11:24:29 2021 -0500
+
+    Fix reward normalization arguments
+
+commit b25c006bc23c73638e25f734186d3daae49c0576
+Author: Ilya Kostrikov <kostrikov@cs.nyu.edu>
+Date:   Thu Feb 4 11:15:19 2021 -0500
+
+    Fix device placement when loading
+
+commit b1152f8e251d827c5c1199aa543fa2739cb12691
+Merge: 8654d7e 1f3ba8e
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Sat Jan 2 12:07:06 2021 -0500
+
+    Merge pull request #255 from vwxyzjn/master
+    
+    modify readme for dependencies
+
+commit 1f3ba8e1e1256915936f939e28f1a3d10d27cb15
+Author: Costa Huang <costa.huang@outlook.com>
+Date:   Sat Jan 2 12:06:52 2021 -0500
+
+    modify readme
+
+commit 94b6321f725bb19f77c8342bc08895ee06558704
+Author: Costa Huang <costa.huang@outlook.com>
+Date:   Sat Jan 2 12:05:01 2021 -0500
+
+    modify readme for dependencies
+
+commit 8654d7e555bae12c8ef4dc8883e39b15094738c6
+Merge: 84a7582 67c96d9
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Sat Jan 2 11:57:20 2021 -0500
+
+    Merge pull request #254 from vwxyzjn/master
+    
+    replace baselines dependencies
+
+commit 67c96d9f5d4e1fe045f07b79d7321f734dbd814b
+Author: Costa Huang <costa.huang@outlook.com>
+Date:   Sat Jan 2 11:45:57 2021 -0500
+
+    replace baselines dependencies
+
+commit 84a7582477fb0d5c82ad6d850fe476829dddd2e1
+Author: Ilya Kostrikov <kostrikov@Ilyas-MBP.fios-router.home>
+Date:   Tue Mar 3 09:40:39 2020 -0500
+
+    Fix a bug
+
+commit d8c758d65b407008e36303202cf570e6c78632fb
+Merge: 62e8d58 df7293d
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Tue Feb 4 15:06:40 2020 -0500
+
+    Merge pull request #229 from LyubaS/master
+    
+    delete repeated line
+
+commit df7293da8d986124e84a51be07ecf4b935a2474e
+Author: LyubaS <lubava39@gmail.com>
+Date:   Tue Feb 4 14:51:11 2020 -0500
+
+    delete repeated line
+
+commit 62e8d5896db155839056deb0fe60e0c05db0bf16
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Mon Jan 20 15:00:33 2020 -0500
+
+    Update a2c_acktr.py
+
+commit a6afcb3d24f57cdafdbddc305e5213f8444c8678
+Merge: e704ad5 a7b3ee0
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Wed Nov 20 18:34:09 2019 -0500
+
+    Merge pull request #215 from jordan-schneider/master
+    
+    Converts standarzied distribution interfaces to subclasses of torch d…
+
+commit a7b3ee00c5df6142026c1a53b38df8d032aa5e8e
+Author: Jordan Schneider <joschnei@cs.utexas.edu>
+Date:   Wed Nov 20 15:16:15 2019 -0600
+
+    Converts standarzied distribution interfaces to subclasses of torch distributions instead of modifying the torch classes directly.
+
+commit e704ad56bcecab5c7601c3cf1f93dbb017c9b86b
+Merge: be2883b ddbfd9f
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Sat Nov 9 08:21:55 2019 -0500
+
+    Merge pull request #192 from ranamihir/patch-2
+    
+    Fix GAIL expert dataloader
+
+commit be2883b34bba14a557c3432c282348352253fd9f
+Merge: 8258f95 d9aba91
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Mon Sep 2 19:54:36 2019 -0400
+
+    Merge pull request #203 from ThisIsIsaac/patch-2
+    
+    Compatible with Python 3.5
+
+commit d9aba910a6704fb2515f271ee4ada1252f30b130
+Author: 이중건 Isaac Lee <49523965+ThisIsIsaac@users.noreply.github.com>
+Date:   Tue Aug 13 13:55:14 2019 +0900
+
+    Compatible with Python 3.5
+
+commit 8258f95d6c1959d02c6a412415138b95c32837a0
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Tue May 7 15:13:12 2019 -0500
+
+    Fix a bug in mask wrapper.
+
+commit ddbfd9ff3a0c8c6407b31c6a7770c28594ae3a1f
+Author: Mihir Rana <ranamihir@gmail.com>
+Date:   Fri May 3 13:13:50 2019 -0400
+
+    Fix GAIL expert dataloader
+    
+    Set drop_last=True only if the dataset size is more than GAIL batch size (otherwise it just returns an empty dataloader).
+
+commit b4133ecb9528d965cae4f1d4618bd5eff03de126
+Merge: 4f04391 6a89459
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Mon Apr 15 20:58:57 2019 -0400
+
+    Merge pull request #188 from ranamihir/patch-1
+    
+    Fix data type for torch v0.4.1
+
+commit 6a89459ae044393030a71da250183df71b57fefd
+Author: Mihir Rana <ranamihir@gmail.com>
+Date:   Mon Apr 15 20:15:00 2019 -0400
+
+    Fix data type for torch v0.4.1
+    
+    PyTorch v0.4.1 returns float32 on calling `torch.randint()` (see this: https://github.com/pytorch/pytorch/issues/14886).
+
+commit 4f04391f1dfc718da74d2153f6812b3002d93235
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Sun Apr 7 16:56:07 2019 -0400
+
+    Add faster sampling for the gail dataset class
+
+commit d4c68c1ce8d87a7c4ae7a7d88b54daa197785fc4
+Merge: 8a4a500 ecb83f7
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Fri Apr 5 21:20:37 2019 -0400
+
+    Merge pull request #179 from NTT123/master
+    
+    Fix noisy gradient due to small mini batch
+
+commit ecb83f7417dd30953770dd93ff9e47dca210b0c5
+Author: NTT123 <s140046@e.ntu.edu.sg>
+Date:   Fri Apr 5 15:36:05 2019 +0800
+
+    Fix noisy gradient due to small mini batch
+
+commit 8a4a500b8bd7a7c10f7b3fbcaebcfdb6d62ef7d4
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Sat Mar 16 14:41:34 2019 -0400
+
+    Update to match the current version of baselines
+
+commit 9e86e17c0c5365760304903e6aeec8ad805a4319
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Fri Mar 15 18:15:20 2019 -0400
+
+    Remove unnecessary arguments
+
+commit eb04bdc11ebe7eed2cefd021fec6ac994a6ebddd
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Fri Mar 15 18:10:44 2019 -0400
+
+    Create a loader for gail expert trajectories
+
+commit 6954e16d32a57150f949a35fe0a5364923856b53
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Fri Mar 15 13:04:57 2019 -0400
+
+    Update README.md
+
+commit 2ba6034e1258670e939130a0d37bb0542cd0674d
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Fri Mar 15 13:03:00 2019 -0400
+
+    Update README.md
+
+commit a10f56f7d6a10e324cd891eb4347670ea28313a7
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Fri Mar 15 12:23:49 2019 -0400
+
+    Update README.md
+
+commit fc1f7a5766f48d03fc6b1fb6b7feef9d31fba417
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Fri Mar 15 12:06:22 2019 -0400
+
+    Update README.md
+
+commit 5a36c873e151bd18634dab1690095eb63749894d
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Fri Mar 15 09:42:29 2019 -0400
+
+    Update README.md
+
+commit 252f1c6b58a687bd7d6be5ec4b2499e2e09178c3
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Fri Mar 15 09:42:17 2019 -0400
+
+    Update README.md
+
+commit 82be7003376aa00be9819e98f06e1339d3df82a7
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Fri Mar 15 09:41:25 2019 -0400
+
+    Update README.md
+
+commit 0e5875294135350cf7d4f53d966d1e69dbacfd4d
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Thu Mar 14 22:16:16 2019 -0400
+
+    Add reward normalization to gail
+
+commit 573db82a7e6e04e3914e0192ac28b580c26e13d2
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Thu Mar 14 21:26:24 2019 -0400
+
+    Fix a bug with file names
+
+commit 9b495df0e71f63aa84810e62c268a0553e60e368
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Thu Mar 14 21:23:54 2019 -0400
+
+    Add gail
+
+commit 26b6891848013191623aa4db444667b3fff97c74
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Thu Mar 14 16:10:09 2019 -0400
+
+    Move evaluation function to a separate file
+
+commit 225eed3b50caa3a3297abe96ba0ac2bf44bb8262
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Thu Mar 14 15:53:22 2019 -0400
+
+    Refactor code
+
+commit f60ac80147d7fcd3aa7e9210e37d5734d9b6f4cd
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Thu Mar 14 15:08:23 2019 -0400
+
+    Refactor code and apply formatting
+
+commit 88080da828dd4132bec0456b996e516fe356f75f
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Thu Mar 14 14:07:22 2019 -0400
+
+    Fix a computibility issue with classic control
+
+commit 65b957cb4b8d767de16808926866e953502745e4
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Thu Mar 14 12:06:25 2019 -0400
+
+    Fix a bug in enjoy.py
+
+commit 31339f1e2502afabaaa97f3dff0c4d2a041c950a
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Tue Mar 5 17:50:16 2019 -0500
+
+    Add a template for atari
+
+commit 23867e1d45db2826180010472000cba5b3ea7a18
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Tue Mar 5 17:21:24 2019 -0500
+
+    Use fork context for multiprocessing envs
+
+commit 9a65e6a7a4323ba09084a117edd4e46c181c6d23
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Tue Mar 5 16:39:14 2019 -0500
+
+    Remove viz
+
+commit 3f7c02d6a3361a9b5eeec73ca83c902a4b7cfde4
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Tue Mar 5 16:10:10 2019 -0500
+
+    Remove remaining of visdom from arguments
+
+commit b59e6f6c04a876e451ae403664e03341247a5e6f
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Tue Mar 5 16:09:13 2019 -0500
+
+    Remove remaining of visdom
+
+commit 098cd017ff0d4079cc643259038052d2539bff8e
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Tue Mar 5 15:48:42 2019 -0500
+
+    Add logs for the time limit flag
+
+commit 9c03a4c0fe4af40ceb01321311db1dcd348a932f
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Tue Mar 5 14:54:05 2019 -0500
+
+    Add a script to generate tmux launcher
+
+commit 770adaaa2eb5afea280c09163e9b3a674d40a41e
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Tue Mar 5 14:51:58 2019 -0500
+
+    Add logs for ppo
+
+commit 163f3d69f0030d47bcdf4c0214b03cb295a8e15b
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Tue Mar 5 14:49:50 2019 -0500
+
+    Update images for ppo
+
+commit 14f3ac10fea7956d1f4e842e4f74264d90d4878d
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Tue Mar 5 13:49:50 2019 -0500
+
+    Fix a bug with time limit masks
+
+commit 37c71d644f0cd01d33217e94f562df550de7aa3c
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Tue Mar 5 13:06:02 2019 -0500
+
+    Remove unnecessary dependices from visualize.ipynb
+
+commit 24607d5194dc8338f4e187924ac612793bdab6a3
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Tue Mar 5 13:03:22 2019 -0500
+
+    Add a flag to properly handle partial trajectories
+
+commit ddb89a5cc4df36396d17a73d4b6631fa3caca3b4
+Merge: 19ee1f3 89f7d3f
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Fri Feb 8 22:11:51 2019 -0500
+
+    Merge pull request #165 from Toraudonn/master
+    
+    Fixed minor bug in evaluation code
+
+commit 89f7d3f0d84f420412285573102d04d355564a65
+Author: Toraudonn <toraudonn@gmail.com>
+Date:   Sat Feb 9 11:34:24 2019 +0900
+
+    fix minor bug in evaluation code
+
+commit 19ee1f32580d55f01c063d4b792e235c67ff52f2
+Merge: bc3a68f 4e4329c
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Fri Feb 8 08:05:21 2019 -0500
+
+    Merge pull request #164 from Toraudonn/master
+    
+    Revise TransposeImage
+
+commit 4e4329c97e69e67c8fd4487e999fb5e91b98b743
+Author: Toraudonn <toraudonn@gmail.com>
+Date:   Fri Feb 8 14:09:18 2019 +0900
+
+    remove string ops from TransposeImage
+
+commit 4e2cfa795f83055aa3825e960592c9439c665dec
+Author: Toraudonn <toraudonn@gmail.com>
+Date:   Thu Feb 7 13:49:28 2019 +0900
+
+    add base class
+
+commit 5ca0b09c57d287b50bad1a53f8bd9bf4a43a75f5
+Author: Toraudonn <toraudonn@gmail.com>
+Date:   Thu Feb 7 13:39:49 2019 +0900
+
+    revise tranpose wrapper
+
+commit bc3a68fd2127754f81a1cf3f93ffc81b08667ce3
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Sun Jan 6 18:07:20 2019 -0500
+
+    Fix a performance issue with non deterministic cuda
+
+commit d93372839bd62b53fa30988172af4d093702e4d5
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Mon Dec 10 17:53:51 2018 -0500
+
+    Fix clip linear decay
+
+commit 05a8852cc2ca035ce792b84f902901a50dde0b18
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Tue Dec 4 11:15:17 2018 -0500
+
+    Fix a problem with entropy
+
+commit 969ef38e3ac73f7bd63272142dd87d593eb76be0
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Tue Dec 4 11:12:00 2018 -0500
+
+    Update README.md
+
+commit 57c3d84f013af6c6ba52699a40b687f54b21ed18
+Merge: 1ed9edc 4370cb9
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Tue Dec 4 11:07:46 2018 -0500
+
+    Merge pull request #76 from timmeinhardt/pipify_to_installable_package
+    
+    Make entire project a python package and installable with pip
+
+commit 4370cb975c7864540459b84ee0a1be352a206e26
+Author: Tim Meinhardt <meinhardt.tim@gmail.com>
+Date:   Tue May 29 15:26:51 2018 +0200
+
+    Make entire project a python package and installable with pip
+
+commit 1ed9edcd160009689316a1554833d9d0465696c8
+Merge: 6691811 39dcc9a
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Thu Nov 29 09:15:02 2018 -0500
+
+    Merge pull request #156 from timmeinhardt/policy_with_custom_base_and_bernoulli
+    
+    Policy with custom base and Bernoulli distribution
+
+commit 39dcc9a2eed9acde908288b9e8ab014acc2253d6
+Author: Tim Meinhardt <meinhardt.tim@gmail.com>
+Date:   Wed Nov 28 18:48:21 2018 +0100
+
+    Add custom base and bernoulli to policy
+
+commit 492d312d629e6ef0e29b6a49a68b26c0896e2e3d
+Author: Tim Meinhardt <meinhardt.tim@gmail.com>
+Date:   Wed Nov 28 18:47:57 2018 +0100
+
+    Add Bernoulli distribution
+
+commit 669181152ed6e781ff7a25f7f65dd3daf91de6da
+Merge: 151ba54 fc29c60
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Mon Nov 26 16:57:46 2018 -0500
+
+    Merge pull request #154 from yobibyte/master
+    
+    Small changes in main.py
+
+commit fc29c60eec283076636f57b133ca8da8529b9eed
+Author: yobibyte <vitaliykurin@gmail.com>
+Date:   Mon Nov 26 21:51:55 2018 +0000
+
+    Rename num-frames -> num-env-steps arg.
+
+commit 819044937bd19d77e76d609350fc611086c1ed33
+Author: yobibyte <vitaliykurin@gmail.com>
+Date:   Mon Nov 26 21:46:07 2018 +0000
+
+    save the last epoch model
+
+commit 151ba5429b716cae635092a9e962ff97c08492bf
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Mon Nov 26 13:21:48 2018 -0500
+
+    Change initialization to match baselines
+
+commit 0cfdc391714cc2eea9502aa7e0019d24bae19192
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Sun Nov 25 08:42:15 2018 -0500
+
+    Change value loss coef to match baselines
+
+commit 7c5a410d3898329f6bf5113f2e63858f0831625a
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Sat Nov 24 18:56:24 2018 -0500
+
+    Update default parameters to match baselines
+
+commit e2612d6c22b65f5604ebfb01a346a7e828a70f3c
+Merge: 5a20709 209b952
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Sat Nov 24 12:05:22 2018 -0500
+
+    Merge pull request #34 from Piggelinus/master
+    
+    Added linear schedule for learning rate
+
+commit 209b9525915175eb6e0e4fe84c62b28b1f578eff
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Sat Nov 24 11:46:48 2018 -0500
+
+    Update main.py
+
+commit f79f217d76072e47e76398e349dc2b4038546b62
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Sat Nov 24 11:10:42 2018 -0500
+
+    Update main.py
+
+commit 5529c6ee64d49edada772b7401e8e532236a52a0
+Merge: 41426bd 5a20709
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Sat Nov 24 11:08:42 2018 -0500
+
+    Merge branch 'master' into master
+
+commit 5a20709a148e533faf4654e008934440011a640b
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Sun Nov 18 15:18:12 2018 -0500
+
+    Use clipped value loss by default
+
+commit c33bb12193ae66fc9403eb8b152be5a8d0442d8d
+Merge: de08e43 e2634f6
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Wed Nov 14 09:39:31 2018 -0500
+
+    Merge pull request #152 from FlorianKlemt/master
+    
+    Determinism bugfix + added determinism option
+
+commit e2634f68394eaa1f2c9c07223a9cdce0d2ab34fc
+Author: Florian Klemt <FKlemt@gmx.de>
+Date:   Tue Nov 13 06:29:36 2018 -0500
+
+    Determinism bugfix + added determinism option
+
+commit de08e4384678f282709c14d20947308e598e4e59
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Fri Nov 9 16:54:56 2018 -0500
+
+    Fix atari ram envs
+
+commit 790c90e32fb656c6f774d1947210beeb5d429325
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Fri Nov 9 11:37:36 2018 -0500
+
+    Throw an error for non-atari envs with pixels inputs
+
+commit f4d19465013533ab66afe59a1aedcbe4d956af0b
+Merge: 2edf667 6abc02b
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Tue Oct 30 08:59:13 2018 -0400
+
+    Merge pull request #137 from erikwijmans/master
+    
+    Faster recurrent policy evaluate actions
+
+commit 2edf667a2e2bb2fcfe8f102b0a58576a69dad4e5
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Thu Oct 18 21:44:25 2018 -0400
+
+    Update kfac.py
+    
+    Add a comment for kfac.
+
+commit 6abc02b856623613c45f6b07ec29b1a56d28210e
+Author: erikwijmans <ewijmans2@gmail.com>
+Date:   Sat Sep 29 12:11:58 2018 -0700
+
+    Cleaner gru init code
+
+commit 923d154c13ae7dd7b4c6dd4e7e4e7b8549e2f9b7
+Author: erikwijmans <ewijmans2@gmail.com>
+Date:   Sat Sep 29 12:06:56 2018 -0700
+
+    Remove weird extra comment
+
+commit af29aac8dd73ebc3cd9ea8557fe7f81c5a5b1763
+Author: erikwijmans <ewijmans2@gmail.com>
+Date:   Fri Sep 28 17:29:05 2018 -0700
+
+    Type
+
+commit 3669f22292c254726e06808e5e65cb181b6c4094
+Author: erikwijmans <ewijmans2@gmail.com>
+Date:   Fri Sep 28 17:25:47 2018 -0700
+
+    Much faster recurrent policy
+
+commit 12c39346f789d714c4a5cd793cc6266757616d80
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Wed Sep 26 08:19:25 2018 -0400
+
+    Add scaling for non-clipped value loss
+
+commit 7d060828eec2badabda5a5de3d36ef53c9ca57ea
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Tue Sep 25 22:27:39 2018 -0400
+
+    Not use clipped loss by default
+
+commit 79ec8f5009d71a891176f23af20fc077f058713a
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Tue Sep 25 21:13:04 2018 -0400
+
+    Change value loss to ppo2 version
+
+commit 3e95f62fe45b94eb773164b9b569b061ef82f9bf
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Sun Sep 23 15:41:42 2018 -0400
+
+    Add non-deterministic evalation
+
+commit ee40508532c00c30881c18d966d00262e8276e99
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Fri Sep 21 10:44:25 2018 -0400
+
+    Fix a bug in enjoy.py
+
+commit 1d4d984ef745d388bb6e2760d460348d8d9efb25
+Merge: 841fad1 19f6bfa
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Mon Sep 17 13:38:41 2018 -0400
+
+    Merge pull request #132 from timmeinhardt/add_VecNormalize_with_eval_mode
+    
+    Add VecNormalize with eval mode and fix previous bug
+
+commit 19f6bfac9d39794db025dc53f8921346f58080b9
+Author: Tim Meinhardt <meinhardt.tim@gmail.com>
+Date:   Mon Sep 17 18:34:37 2018 +0200
+
+    dd VecNormalize with eval mode and fix previous bug
+
+commit 841fad1d4fd7fc2d074942dd61ff7cea2032937e
+Merge: 46b7805 e7aa3e5
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Mon Sep 17 13:13:37 2018 -0400
+
+    Merge pull request #131 from timmeinhardt/refactor_VecPyTorchFrameStack
+    
+    Refactor VecPyTorchFrameStack
+
+commit e7aa3e58259455f5ffd241082c4ddcd511a858fb
+Author: Tim Meinhardt <meinhardt.tim@gmail.com>
+Date:   Mon Sep 17 18:23:28 2018 +0200
+
+    Refactor VecPyTorchFrameStack
+
+commit 46b7805077f61db07f7442c3c806d6f2b3a813c1
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Sat Sep 15 08:30:05 2018 -0400
+
+    Disable visdom by default
+
+commit 426ab95994d425530cea0736ec3de6385aee3298
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Thu Sep 13 07:56:06 2018 -0400
+
+    Update README.md
+
+commit 2ba808034dc0ff661f60d51da77e649d718c603c
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Mon Sep 10 12:32:14 2018 -0400
+
+    Add a masking wrapper to test recurrent policy
+
+commit 88c993d9eb650aa79e2be2dd6f208ff438d59dae
+Merge: 8e45982 a4a3629
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Sat Sep 8 15:37:02 2018 -0400
+
+    Merge pull request #120 from rwightman/fix_eval_env_close
+    
+    Close evaluation environments. Fixes #119
+
+commit a4a36291d9383647c4dc38312972c0a5ffd02257
+Author: Ross Wightman <rwightman@gmail.com>
+Date:   Sat Sep 8 12:33:01 2018 -0700
+
+    Close evaluation environments. Fixes #119
+
+commit 8e4598290e198ce31f25aee248b0048819aa83ef
+Merge: 685d27b 3df9dca
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Fri Sep 7 18:44:39 2018 -0400
+
+    Merge pull request #118 from rwightman/fix_eval_device_copy
+    
+    Fix observation not being copied to GPU in evaluation. Closes #117
+
+commit 3df9dca6c45d96ab861ef734dc319eced69d1cc0
+Author: Ross Wightman <rwightman@gmail.com>
+Date:   Fri Sep 7 15:09:46 2018 -0700
+
+    Fix observation not being copied to GPU in evaluation. Closes #117
+
+commit 685d27bf43085fad19d64ee67a3028137c1edf4e
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Thu Sep 6 20:51:07 2018 -0400
+
+    Remove unnecessary warning.
+
+commit 5826c84ae5c529a851a3747c81ead254cc5db3fe
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Thu Sep 6 16:06:24 2018 -0400
+
+    Use the same statistics for evaluation
+
+commit 4389154d08785ef98e628422b53693e1645d810a
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Thu Sep 6 15:08:15 2018 -0400
+
+    Add evaluation
+
+commit 1a09a65a3e1ef1d565b9f063a9821f8531d29282
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Wed Sep 5 19:00:18 2018 -0400
+
+    Remove unnecessary variables
+
+commit 65af003602d38cd1f324e0bcfce40c7f0987eec0
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Wed Sep 5 16:56:06 2018 -0400
+
+    Change rewards logging
+
+commit e366bf4ed8cc23af8d7d37b61b01d174565c464c
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Wed Sep 5 08:25:15 2018 -0400
+
+    Move observation stacking to a wrapper
+
+commit 840f54445905b0c8330afbb3458762262d5a6ef6
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Tue Sep 4 16:00:17 2018 -0400
+
+    Remove unnecessary variables
+
+commit 4588ac6d2704f69dd9f527ae8145cd820c44667d
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Tue Sep 4 15:18:53 2018 -0400
+
+    Move creating envs into one function
+
+commit 372de706b99853ea918ace294bcf14f9d6aa0709
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Tue Sep 4 11:21:08 2018 -0400
+
+    Add a pytorch env wrapper
+
+commit 47ddcbfab806c37ed19f438100300bd4d58c42f3
+Merge: a70254b fbddd9f
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Mon Aug 27 11:14:21 2018 -0400
+
+    Merge pull request #113 from ranahanocka/py35-bugfix
+    
+    replacing python 3.6+ fstring with .format
+
+commit fbddd9f1f9c654e7845faefa3b395e59bb98ec1b
+Author: ranahanocka <github@hanocka.com>
+Date:   Mon Aug 27 18:12:16 2018 +0300
+
+    formatting
+
+commit 858f748a781d73d5cb9bf5f72705f87dc5deb77c
+Author: ranahanocka <github@hanocka.com>
+Date:   Mon Aug 27 18:00:37 2018 +0300
+
+    replacing python 3.6+ fstring with .format
+
+commit a70254b4f722d0787762f244553369df0c1ed736
+Merge: 7ccf309 9d3d10f
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Mon Aug 27 10:41:15 2018 -0400
+
+    Merge pull request #107 from timmeinhardt/to_device_weighted_losses
+    
+    Introduce to device syntax
+
+commit 9d3d10f8a5b47f5ece3aaef91a0df30a1e5aadde
+Author: Tim Meinhardt <meinhardt.tim@gmail.com>
+Date:   Thu Aug 9 20:15:07 2018 -0400
+
+    Introduce new .to(device) syntax
+
+commit 7ccf309f62cfbddf3c020c178243f094a3c3cc07
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Mon Aug 27 10:29:06 2018 -0400
+
+    Update README.md
+
+commit feae055b290787fa8e73fcb8f2985dfeb0ba3b55
+Merge: d87bb7d 4e426c9
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Mon Aug 27 10:25:27 2018 -0400
+
+    Merge pull request #93 from timmeinhardt/mlp_recurrent
+    
+    MLP recurrent
+
+commit 4e426c94053584ecf758027dee2bfd4cbb2e25db
+Author: Tim Meinhardt <meinhardt.tim@gmail.com>
+Date:   Thu Aug 9 21:08:32 2018 -0400
+
+    Introduce is_recurrent property to policy
+
+commit c5def73f25edb141e620829732f7781a0ebac8d8
+Author: Tim Meinhardt <meinhardt.tim@gmail.com>
+Date:   Thu Aug 9 19:53:20 2018 -0400
+
+    Introduce base_kwargs argument to Policy
+
+commit 625502fcfb611e2f70d312eeaec3ddb7ebea9419
+Author: Tim Meinhardt <meinhardt.tim@gmail.com>
+Date:   Sat Jul 28 14:11:51 2018 -0400
+
+    Rename states to recurrent_hidden_states
+
+commit 0d19c6e96ca91a82ab481713ee2eecbb7336b673
+Author: Tim Meinhardt <meinhardt.tim@gmail.com>
+Date:   Fri Jul 13 09:34:15 2018 +0200
+
+    Implement MLP recurrent policy and extract NNBase class
+
+commit d87bb7d294378be1622ce2d0277b4fb2bcf17149
+Merge: 3aea397 0762c58
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Fri Aug 3 22:31:36 2018 -0700
+
+    Merge pull request #104 from timmeinhardt/extract_update_current_obs
+    
+    Extract update_current_obs function to utils
+
+commit 0762c58fb07a4fb8b947597b4f9984047a7f4339
+Author: Tim Meinhardt <meinhardt.tim@gmail.com>
+Date:   Fri Aug 3 16:19:00 2018 -0400
+
+    Extract update_current_obs function to utils
+
+commit 3aea397f052877209f3791bffe5cf4426b8d8cc9
+Merge: 4d95ec3 ca00e27
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Fri Jul 27 21:14:09 2018 -0700
+
+    Merge pull request #98 from erikwijmans/master
+    
+    Fixes bug in recurrent policy.  Issue #97
+
+commit ca00e2722cea429655e10754e99a8eaef0da2178
+Author: erikwijmans <ewijmans2@gmail.com>
+Date:   Tue Jul 24 15:51:41 2018 -0700
+
+    Rewording of comment
+
+commit 0e63a5cd9e6f50d996a2491a300f760c681d4349
+Author: erikwijmans <ewijmans2@gmail.com>
+Date:   Tue Jul 24 11:56:46 2018 -0700
+
+    Fixes issue with recurrent policy training
+
+commit 4d95ec364c7303566c6a52fb0a254640e931609d
+Merge: 34b46ea e28f6f6
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Sat Jun 30 10:29:55 2018 -0700
+
+    Merge pull request #86 from timmeinhardt/ppo_mini_batches_assertion
+    
+    Add assert statements for PPO data generator batch sizes
+
+commit e28f6f6fd257c34bd120e61bb4cc00a7fb2cfa79
+Author: Tim Meinhardt <meinhardt.tim@gmail.com>
+Date:   Tue Jun 19 17:33:45 2018 +0200
+
+    Add assert statements for PPO data generator batch sizes
+
+commit 34b46eac0abd61e7fb20ff78bb2066eecf5ea7d5
+Merge: 3bb1649 35cae04
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Sat Jun 16 11:50:01 2018 -0700
+
+    Merge pull request #83 from alok/patch-1
+    
+    Use builtin loss function
+
+commit 3bb164908e6e7fb0c7584bfe22e2ca33e17728a0
+Merge: c808b41 532460c
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Sat Jun 16 11:48:34 2018 -0700
+
+    Merge pull request #84 from KMarino/master
+    
+    Added gamma parameter to VecNormalize init
+
+commit 532460cca513fa03d09bbc7f976feacae017b987
+Author: Kenneth Marino <kdmarino@devfair0239.h2.fair>
+Date:   Thu Jun 14 13:04:30 2018 -0600
+
+    Added gamma parameter to VecNormalize init
+
+commit 35cae047055de048c17ebf37e6ffa825bf4cd3d1
+Author: Alok Singh <8325708+alok@users.noreply.github.com>
+Date:   Wed Jun 13 15:15:57 2018 -0700
+
+    Update ppo.py
+
+commit c808b4166baf73757fba38b3396b207930edc315
+Merge: 6ed00b9 136001d
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Fri Jun 8 10:01:00 2018 -0700
+
+    Merge pull request #81 from timmeinhardt/kfac_apply_split_bias_once
+    
+    Apply SplitBiases in KFAC only once to a model
+
+commit 136001da70182f454c8c089d66d8aa9a144324ee
+Author: Tim Meinhardt <meinhardt.tim@gmail.com>
+Date:   Fri Jun 8 17:46:58 2018 +0200
+
+    Apply SplitBiases in KFAC only once to a model
+
+commit 6ed00b9edf0beb852054ad896a4a077d2e64d7d7
+Merge: f55af09 8ab501f
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Fri Jun 1 21:30:07 2018 -0700
+
+    Merge pull request #79 from dineshj1/recurrent_fix
+    
+    ppo recurrent check fixed.
+
+commit 8ab501f83d32a9ca583228bff2b7c88ddd73bc67
+Author: Dinesh Jayaraman <dineshj@cs.utexas.edu>
+Date:   Fri Jun 1 21:03:04 2018 -0700
+
+    ppo recurrent check fixed.
+
+commit f55af0973162acf2986ce6c1a427d66650a90d12
+Merge: a0cf2cf 1fe3bf0
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Tue May 29 06:33:20 2018 -0700
+
+    Merge pull request #75 from timmeinhardt/improve_readability_of_policy_act_method
+    
+    Improve readability of policy act method
+
+commit 1fe3bf052ce17037fc2db6b17eb17c26e46073ff
+Author: Tim Meinhardt <meinhardt.tim@gmail.com>
+Date:   Tue May 29 14:02:44 2018 +0200
+
+    Remove tabs and whitespaces
+
+commit 9998094e94c72386818169d4d0ffa20ef875de22
+Author: Tim Meinhardt <meinhardt.tim@gmail.com>
+Date:   Tue May 29 14:02:26 2018 +0200
+
+    Improve readability of FixedCategorical.mode method
+
+commit a0cf2cfdd42f6305fb26e26589a513570dcc3ddb
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Mon May 28 13:14:50 2018 -0700
+
+    Fix unused deterministic flag
+
+commit 552eb86bbc3e338a898d4adcc506d63fdbabebe0
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Mon May 21 21:33:44 2018 -0400
+
+    Remove unnecessary indexing
+
+commit 82833059b7ee72896c07489bfc0369079ccedd77
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Mon May 21 18:08:38 2018 -0700
+
+    Fix losses computation for PPO
+
+commit 2ec94924ded4e242edea80be9538f25e756394ff
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Tue May 8 16:25:18 2018 -0400
+
+    Fix a typo
+
+commit d319a58a9789b48f5c4a1f1275dbebe9176b7881
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Tue May 8 14:52:25 2018 -0400
+
+    Fix minor inconsistencies with current the pytorch version
+
+commit f30b6ac9e3818a7637f84be305193804ac0ef6e7
+Merge: 1802269 b63a2cf
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Sun May 6 10:06:39 2018 -0400
+
+    Merge pull request #70 from prolearner/patch-1
+    
+    removing wrong import in ppo
+
+commit b63a2cf15dffd15aa65613b5d739ab7fb5065587
+Author: Riccardo Grazzi <riccardo.grazz@gmail.com>
+Date:   Sun May 6 16:03:52 2018 +0200
+
+    removing wrong import in ppo
+
+commit 18022693482182082f178cd73fa3a3cfdecc160a
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Wed May 2 14:10:30 2018 -0400
+
+    Use pytorch distributions
+
+commit 11efdeb6b509b27055526849025a0df649deaf0d
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Mon Apr 30 19:24:05 2018 -0400
+
+    Make initialization more transparent
+
+commit be7aca2b0ea5bff7cb4f9f3513337c297f89a1be
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Mon Apr 30 16:19:39 2018 -0400
+
+    Fix a bug
+
+commit 02ba9fc8def92731b75b1081024bda36a1748b9e
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Mon Apr 30 16:00:33 2018 -0400
+
+    Move normc init to utils
+
+commit df5c12c4ab47b85820c0c2fe97d1dcb3a75bf7e5
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Mon Apr 30 13:16:35 2018 -0400
+
+    Refactor the models
+
+commit 3c0be88e3e3bf9aa1c6b37da7244246e14b85813
+Merge: dd877e5 060116f
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Mon Apr 30 11:50:41 2018 -0400
+
+    Merge branch 'master' of github.com:ikostrikov/pytorch-a2c-ppo-acktr
+
+commit dd877e530f83f9ed498fad067cabd94ce86ce1fe
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Mon Apr 30 11:50:29 2018 -0400
+
+    Move critic calls to forward
+
+commit 060116fac2aaadd9814e9f0f1786f43e75721591
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Thu Apr 26 16:29:04 2018 -0400
+
+    Update README.md
+
+commit a634459dc8bb7b904250e0236a75ab2f1377ba95
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Thu Apr 26 12:48:18 2018 -0400
+
+    Add a recommendation for mujoco
+
+commit 0f0d3795fd104b384aacccd344d3b05e77f9c936
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Thu Apr 26 12:17:48 2018 -0400
+
+    Add an option to add timestep to observations
+
+commit e7f739f3ad1a377bfbcd0b92c55c2b9d947764fc
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Tue Apr 24 22:26:15 2018 -0400
+
+    Migrate to pytorch 0.4
+
+commit 9d2ad2ec6a5da33005d683b5302a1b11097cf79b
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Tue Apr 24 14:21:41 2018 -0400
+
+    Cleanup model definitions
+
+commit 804b4fa3b0c68c61210f9f4b33e286a4cc2e9d2f
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Tue Apr 24 11:47:32 2018 -0400
+
+    Use orthogonal init from nn.ini
+
+commit 9614c08685ab74f5576fd4e4ed2f6954709868b8
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Tue Apr 24 11:35:40 2018 -0400
+
+    Move algorithms to separate files
+
+commit 17ea8333ecbfe6552470f50fab4f83e1444f43a6
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Mon Apr 2 12:07:37 2018 -0400
+
+    Reorganize code
+
+commit 2bb5160a657770910296066a72f698d9e846ab47
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Mon Apr 2 11:14:18 2018 -0400
+
+    Remove duplicated code
+
+commit 8fd2b8be9db03c089f5a9b7e63f210e28f1f5108
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Sun Apr 1 23:25:45 2018 -0400
+
+    Count steps in the storage class and fix a compatibility issue with a newer pytorch
+
+commit c49bdec72a49bbd0e31d816b1fbe2ad63437dec4
+Merge: 58cec12 4b38b95
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Wed Mar 28 15:09:24 2018 -0400
+
+    Merge pull request #62 from willwhitney/plot-scaling
+    
+    make plots scale to fit num_frames
+
+commit 4b38b956fd2229a1eb0e5052dba054f39f510275
+Author: Will Whitney <wfwhitney@gmail.com>
+Date:   Wed Mar 28 15:06:44 2018 -0400
+
+    further indentation fixes
+
+commit 7efd1046605a5103c9214dfba7126c1c6f384f9b
+Author: Will Whitney <wfwhitney@gmail.com>
+Date:   Wed Mar 28 15:03:59 2018 -0400
+
+    clean up indentation and make plots scale to fit num_frames
+
+commit 58cec1277323014e92e1236ec8686dc9f6bd0b42
+Merge: e3e7150 1bdb74e
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Wed Mar 28 12:31:00 2018 -0400
+
+    Merge pull request #61 from willwhitney/dm_control
+    
+    Add support for DeepMind Control Suite
+
+commit 1bdb74efdd175913d9606799c8be130bf7f73fbc
+Author: Will Whitney <wfwhitney@gmail.com>
+Date:   Wed Mar 28 12:29:26 2018 -0400
+
+    update readme for dm_control; move import to try block; clean up comments
+
+commit ac4de977eacb65980eb704041887e037c515670a
+Author: Will Whitney <wfwhitney@gmail.com>
+Date:   Tue Mar 27 20:02:17 2018 -0400
+
+    dm_control2gym wrapper working
+
+commit 787e09e6f4709cb85649116f6c7f1da6bf4ac610
+Author: Will Whitney <wfwhitney@gmail.com>
+Date:   Tue Mar 27 12:14:51 2018 -0400
+
+    untested support for DM control suite
+
+commit e3e7150754a88c15c296a8d80a37e08a99b08160
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Sat Jan 20 11:26:11 2018 -0500
+
+    Update README.md
+
+commit ee05854923f581efadce5af61e517706f3bf0473
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Sat Jan 20 11:24:03 2018 -0500
+
+    Add bibtex
+
+commit c6382c52f86be60185be762dd1538c00d64b48db
+Merge: 1c019b6 e8e9747
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Mon Jan 15 20:18:59 2018 +0200
+
+    Merge pull request #46 from bearpaw/master
+    
+    add explict dimension choice for softmax and log-softmax function
+
+commit e8e9747bdae4c7b63dbe8bd10497ce6975e860a7
+Author: bearpaw <platero.yang@gmail.com>
+Date:   Tue Jan 16 02:15:56 2018 +0800
+
+    add explict dimension choice for softmax and log-softmax function
+
+commit 1c019b67f2a8b9e74bd0ff2b0f328de7ad99226e
+Merge: 163f019 082a206
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Sat Jan 13 20:54:50 2018 +0200
+
+    Merge pull request #45 from bearpaw/master
+    
+    Add argument to select the port to run the visdom server on
+
+commit 082a206544741d5c9dac404f5ba9ff4308e66538
+Author: bearpaw <platero.yang@gmail.com>
+Date:   Fri Jan 12 00:17:28 2018 +0800
+
+    Add argument to select the port to run the visdom server on
+
+commit 163f0199a89339711ba09ce28420b554f6bf024d
+Merge: 66eb0fa 2ec9471
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Tue Dec 19 18:29:40 2017 -0500
+
+    Merge pull request #41 from mabirck/patch-1
+    
+    Update to run roboschool,
+
+commit 2ec9471b74fcc928b340305d14e655724edce77b
+Author: Marco Birck <mafbirck@gmail.com>
+Date:   Tue Dec 19 21:29:00 2017 -0200
+
+     Update to run roboschool(SAFE)
+    
+    Necessary dependency to load roboschool envs.
+    
+    Again Thanks, your work reproducing papers is awesome!
+
+commit 83658b006be8e29d6810056a9927e36cf6f3efb9
+Author: Marco Birck <mafbirck@gmail.com>
+Date:   Tue Dec 19 17:47:46 2017 -0200
+
+    Update to run roboschool,
+    
+    Necessary dependency to load roboschool envs.
+    
+    Thanks, the code is amazing man!
+
+commit 66eb0fa5d45c3b7da2e9a115525d61bb9ad4b111
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Tue Dec 12 18:45:28 2017 -0500
+
+    Update README.md
+
+commit 13ced66a5d6979047e1fbdd337b6f22a61efc8eb
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Thu Dec 7 21:21:30 2017 -0500
+
+    Remove unnecessary float64
+
+commit 2ab80451a6d607759f64fad584aecf670c5aab4a
+Merge: 8d7f424 57fdba3
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Thu Dec 7 18:19:59 2017 -0800
+
+    Merge pull request #39 from hengyuan-hu/fix_symeig
+    
+    remove moving stats to cpu.
+
+commit 57fdba3172a50bc84da43ee884d6ca31cadd7a96
+Author: hengyuan-hu <kevin.huhy@gmail.com>
+Date:   Thu Dec 7 20:15:34 2017 -0500
+
+    remove moving stats to cpu.
+
+commit 8d7f42456f1a3b685ecab50d4ba1e7398ed55a26
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Tue Dec 5 07:08:27 2017 -0800
+
+    Fix a description of arguments
+
+commit c8a13eee13afdbd1323144e3be25f47c20f33546
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Tue Dec 5 07:05:35 2017 -0800
+
+    Fix a bug in envs
+
+commit 41426bd67989970beb9c204d4941384ec10b81c1
+Author: Piggelinus <lericsson22@gmail.com>
+Date:   Mon Dec 4 21:19:57 2017 +0000
+
+    lr schedule now off by default
+
+commit 05336dc13140280d4dcce55e2ba6741b5aa6b280
+Author: Piggelinus <lericsson22@gmail.com>
+Date:   Mon Dec 4 21:17:31 2017 +0000
+
+    added linear lr schedule (off by default)
+
+commit 37382132fbaa06c9a4ed60943762fbf7e381f60e
+Merge: 4586366 08bb496
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Mon Dec 4 12:53:45 2017 -0500
+
+    Merge pull request #32 from maximecb/patch-2
+    
+    Make WrapPyTorch apply to non-atari environments
+
+commit 08bb496147dc75f1d53a255ef941b16b01048e6a
+Author: Maxime Chevalier-Boisvert <maximechevalierb@gmail.com>
+Date:   Mon Dec 4 12:52:04 2017 -0500
+
+    Update envs.py
+    
+    My environment is not atari but also has the color channels in the last dimension. This seems more generic.
+
+commit 4586366c1018257dd448d62f1fc7534e3f5a4338
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Thu Nov 23 22:31:32 2017 -0500
+
+    Fix bugs
+
+commit 694f5c68e024e71ec6470e72fa9d74aca5c0f5be
+Merge: 65da0e8 85187ed
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Thu Nov 23 14:10:56 2017 -0500
+
+    Merge pull request #26 from maximecb/patch-1
+    
+    Made WrapPyTorch get obs space shape from env
+
+commit 85187eda9e73f8bf46489befa83bb8e6c194c329
+Author: Maxime Chevalier-Boisvert <maximechevalierb@gmail.com>
+Date:   Thu Nov 23 13:59:40 2017 -0500
+
+    Using observation_space low and high in WrapPyTorch
+    
+    Indexing into [0,0,0] because these are numpy arrays.
+
+commit 888e087cddead5eb98514cff37d4db88722676e9
+Author: Maxime Chevalier-Boisvert <maximechevalierb@gmail.com>
+Date:   Thu Nov 23 13:48:56 2017 -0500
+
+    Made WrapPyTorch get obs space shape from env
+    
+    WrapPyTorch has sizes specific to atari envs baked in. Getting the shape from the wrapped environment allows it to work with other observation image sizes.
+
+commit 65da0e88e2928a656e6b9fe637e298f9546a0097
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Mon Nov 20 18:17:43 2017 -0500
+
+    Add a recurrent policy
+
+commit 2fc89f22963c6cb1499d8198581f0f80f9f63ca4
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Mon Nov 20 09:57:59 2017 -0500
+
+    Fix gaussian entropy and clean up distributions
+
+commit bcb4b5f8cfa2ae5332e9fcac72526d24579afcd5
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Sat Nov 18 18:38:14 2017 -0500
+
+    Make more similar to ppo2
+
+commit 33dcb31b5083993eaabceb24edf88639030ddc1f
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Sat Nov 18 00:50:37 2017 -0500
+
+    Use a dummy vectored env for a single process
+
+commit c28b2e4cfd60a5b131a1f8752d484b9c99d05e81
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Fri Nov 17 23:32:20 2017 -0500
+
+    Remove a second pass for PPO
+
+commit 5dba182362d6d3b7d87fe852a4d707bd7ec3153a
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Fri Nov 17 16:49:07 2017 -0500
+
+    Update observation normalization from baselines
+
+commit ef5880fbde3d4352e302e82a07d27466bb9b37f8
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Sat Nov 11 11:57:28 2017 -0500
+
+    Fix orthogonal init.
+
+commit d7562cb47ba46b528071c35bf1740d5c04515ff5
+Merge: 20178aa 12d40ee
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Wed Nov 8 13:17:46 2017 -0500
+
+    Merge branch 'master' of github.com:ikostrikov/pytorch-a2c-ppo-acktr
+
+commit 20178aaa62edbdc6ff5c3cc8058a2af51180604a
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Wed Nov 8 13:17:40 2017 -0500
+
+    Rename variables
+
+commit 12d40eee1fe5f0a798d5d40101ab40317d56db27
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Wed Nov 8 10:38:59 2017 -0500
+
+    Update README.md
+
+commit df4d8b35208ef53862283e63d7e811a2311db628
+Merge: 2658b81 d83fa1d
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Wed Nov 8 09:14:35 2017 -0500
+
+    Merge pull request #19 from maximecb/patch-2
+    
+    Fix layer size in DiagGaussian
+
+commit d83fa1dffcbe47d509f064c1dd552e119132c6d7
+Author: Maxime Chevalier-Boisvert <maximechevalierb@gmail.com>
+Date:   Wed Nov 8 09:13:04 2017 -0500
+
+    Fix layer size in DiagGaussian
+    
+    I believe this is a bug. Ran into it running the CNN policy on an environment with continuous actions. You have a number of values which are hardcoded (eg: layer sizes) when they should be based on the input/output size.
+
+commit 2658b81cdb87e304d6b4dc71f784025a73b05952
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Tue Nov 7 20:06:41 2017 -0500
+
+    Remove no longer necessary code
+
+commit dda16123153094f2b6a43aaa206e97143bd54ee7
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Tue Nov 7 19:34:07 2017 -0500
+
+    Rename a method for distributions
+
+commit b8d4c2c113899478251f0dc7dadc0282fe4fa98b
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Tue Nov 7 13:20:28 2017 -0500
+
+    Fix a monitor bug
+
+commit 7d186224a05737d4d02e64135977ab3fd6139bbb
+Merge: d8cde7d 9ff0397
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Thu Nov 2 13:45:16 2017 -0400
+
+    Merge pull request #17 from maximecb/patch-1
+    
+    Fix conditional to enable --no-vis option to work properly
+
+commit 9ff0397c40e9fb8f8a9153b0d8322f1ee8d054b2
+Author: Maxime Chevalier-Boisvert <maximechevalierb@gmail.com>
+Date:   Thu Nov 2 13:44:03 2017 -0400
+
+    Fix conditional to enable --no-vis option to work properly
+    
+    Currently, the `--no-vis` option fails with:
+    
+    ```
+    Traceback (most recent call last):
+      File "main.py", line 248, in <module>
+        main()
+      File "main.py", line 244, in main
+        win = visdom_plot(viz, win, args.log_dir, args.env_name, args.algo)
+    UnboundLocalError: local variable 'viz' referenced before assignment
+    ```
+
+commit d8cde7d57710dcc6943fa0f83653fc2969d51a42
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Thu Oct 26 16:46:37 2017 -0400
+
+    Fix loging and visualization
+
+commit 243800609891691f3434497e817bd41c6d469fa1
+Merge: 8248f6c 9270aa8
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Thu Oct 26 12:56:27 2017 -0400
+
+    Merge pull request #14 from nadavbh12/master
+    
+    Clean running stat
+
+commit 8248f6cb4a19551f4d128a9fac4fca5a20c9f020
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Thu Oct 26 11:30:31 2017 -0400
+
+    Update for a recent version of baselines
+
+commit 9270aa860e4722c7a30c6cfb5dd48745e92cbc39
+Author: Nadav Bhonker <nadavbh@gmail.com>
+Date:   Thu Oct 26 17:02:23 2017 +0300
+
+    clean running stat
+    
+    Changed running stat to inherit from nn.Module.
+    This removed the need to implement special cpu/cuda functions.
+
+commit ce6407ef852ceba7f5ff67cb846c936fa4b99cf2
+Merge: 0237cca 05f1076
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Wed Oct 25 15:55:18 2017 -0400
+
+    Merge pull request #13 from nadavbh12/patch-1
+    
+    Clean Atari detection
+
+commit 0237cca7096ab9ca7f3498df555bf33172ad766f
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Wed Oct 25 15:53:58 2017 -0400
+
+    Add FPS counting
+
+commit 05f1076ab99b11cba76fa49773422a43e21570d0
+Author: nadavbh12 <nadavbh@gmail.com>
+Date:   Wed Oct 25 16:32:06 2017 +0300
+
+    Clean Atari detection
+
+commit a018fd9ef640a60cef75f01f9e95ecff383b6a81
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Mon Oct 16 18:36:36 2017 -0400
+
+    Refactor KFAC
+
+commit a2613cdaf2e718f5186cffcb1b24f831f84d72fe
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Sun Oct 15 17:12:30 2017 -0400
+
+    Update README.md
+
+commit 5a6e6411a93c4c22803ed8206d49c64a89c01f87
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Sun Oct 15 17:09:56 2017 -0400
+
+    Update README.md
+
+commit d122102334bddd34f522baf6044ae4a19c9e0e0c
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Sun Oct 15 12:55:28 2017 -0400
+
+    Fix a bug in creation of the model and num of frames
+
+commit 4a6969bb3ecd621f06160c62d0949e6231b695f4
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Sat Oct 14 18:55:48 2017 -0400
+
+    Fix a missing import
+
+commit 337d9891a15057a4609ede736d527037274bf8c4
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Fri Oct 13 22:11:28 2017 -0400
+
+    Add distributions and refactor models
+
+commit db17c8eb28a026c1b73ce3bf482993fa14fd8412
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Fri Oct 13 00:37:57 2017 -0400
+
+    Move AddBias to utils
+
+commit 5bd9de24e63c557aed1779f6cee611cfeb52ddc0
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Fri Oct 13 00:31:36 2017 -0400
+
+    Change the ugly hack to detect atari
+
+commit ec2b221ac338ada100982d6370a5cd4976b8c4e2
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Wed Oct 11 10:45:18 2017 -0400
+
+    Update README.md
+
+commit 70461e34da78152ff7af892267e7d8a34a622076
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Wed Oct 11 10:22:12 2017 -0400
+
+    Combine requirement sections
+
+commit 46dccab54340da0e83b0636c3cead5bd35c540c8
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Wed Oct 11 10:20:18 2017 -0400
+
+    Add requirements
+
+commit 89caf2a95cf0aed2378f6df08f79bba034f84682
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Sun Oct 8 18:21:22 2017 -0400
+
+    Create a log folder in enjoy.py
+
+commit e6abe78f8cb97f18c462d6074c43605286617c39
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Sun Oct 8 18:18:46 2017 -0400
+
+    Fix a typo in README.md
+
+commit d2066b5d67ab310095feae0f87feb7759f885f36
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Sat Oct 7 03:37:00 2017 -0400
+
+    Remove redundant code from envs.py
+
+commit 5dd0d4f1ce923ca0a2effebe6a3238faac7d65ce
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Fri Oct 6 22:09:25 2017 -0400
+
+    Fix a typo in README
+
+commit 9984146afcd786ecd49b3d19c551d5881b7aaea1
+Merge: 96382dc f5bb580
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Fri Oct 6 22:06:33 2017 -0400
+
+    Merge branch 'master' of github.com:ikostrikov/pytorch-a2c-ppo-acktr
+
+commit 96382dce22bc16efa19092c89e79915b42358c21
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Fri Oct 6 22:06:20 2017 -0400
+
+    Add a link to pretrained models and enjoy.py
+
+commit f5bb58061b3c95e2cf615f308b986b76f1b1035d
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Fri Oct 6 15:56:42 2017 -0400
+
+    Delete run_ppo_mujoco.py
+
+commit baf507f6bffdf3884c147127ab766c7524eaccad
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Thu Oct 5 15:54:39 2017 -0400
+
+    Add pybullet support
+
+commit 041e928c05af62ef2c1d2d440b305766cfa8d17f
+Merge: 6e6619c f4af48b
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Wed Sep 27 08:31:22 2017 -0400
+
+    Merge branch 'master' of github.com:ikostrikov/pytorch-a2c-ppo-acktr
+
+commit f4af48b76565ecd9a628b95dce7c66f17693a3f5
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Wed Sep 27 08:20:19 2017 -0400
+
+    Add MuJoCo
+
+commit 6e6619c0d7e96d8cf29a8573c8d37f43666988c5
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Wed Sep 27 08:21:04 2017 -0400
+
+    Add MuJoCo
+
+commit 09e75e26ae86433d453f5bb70d5b991c2e0683a4
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Wed Sep 27 08:20:19 2017 -0400
+
+    Add MuJoCo
+
+commit 54a0f981802ccb86350033a42c3cedd114efc49d
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Sun Sep 24 23:00:14 2017 -0400
+
+    Recompute old probabilities for PPO, to make continuous actions work with obs filter
+
+commit 6ee53d245d3af2429287d8f13ffd1db8370d6f76
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Fri Sep 22 21:16:03 2017 -0400
+
+    Extract repetative code to a function
+
+commit f4fc4c60646738d289aa09b4451912551ca5122e
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Fri Sep 22 12:29:21 2017 -0400
+
+    Create an act function
+
+commit 6c949f291ece96c8c05dabfa1c85567f784d3a66
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Thu Sep 21 19:25:16 2017 -0400
+
+    Store a single log probability of actions
+
+commit 475de2251909d06c1b7056ebe0800c889e1bc863
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Wed Sep 20 19:29:04 2017 -0400
+
+    Create a rollout storage
+
+commit ccc261bcb9ed81abe5193f4ed27824c6f3081757
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Tue Sep 19 09:31:49 2017 -0400
+
+    Fix a typo
+
+commit 9e0758487223fa22a7c404c296c5cbc67225c022
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Mon Sep 18 23:22:11 2017 -0400
+
+    Move arguments to a separate file
+
+commit ec47ca7ed98e8b8f9d48de591f15e799f0cabab8
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Sun Sep 17 23:08:50 2017 -0400
+
+    Add KFAC
+
+commit 5d29401658262246006e50d52a7e7dc6346d1604
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Sun Sep 17 18:43:45 2017 -0400
+
+    Add PPO
+
+commit f09b3a75e42c36c4ae8cc041c75c9cf7d8fbd2ae
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Sat Sep 16 20:53:16 2017 -0400
+
+    Add GAE
+
+commit eb110220d9a39a294479433cefc274e42506737e
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Sat Sep 16 17:04:14 2017 -0400
+
+    Refactor code to add ppo easier
+
+commit 6d17d59f36ac60c532894dcac34580e10d7e95c3
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Thu Sep 14 07:08:50 2017 -0400
+
+    Add images
+
+commit a4183c5e86275f89171017b9f57b6a123ef3bce2
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Wed Sep 13 18:34:13 2017 -0400
+
+    Add visualization
+
+commit ae9915a713e9e398980b699ca16531e26fb1bba6
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Sat Sep 9 10:09:03 2017 -0400
+
+    Add warning message and more stats
+
+commit 9016d17eeaa023ec0a4d5d2e0df6ad9b925abbd2
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Sat Sep 9 09:38:23 2017 -0400
+
+    Use more meaningful names
+
+commit ba37e84b0a5466be20889cdc07d81566e5523d6c
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Thu Sep 7 20:01:02 2017 -0400
+
+    Create LICENSE
+
+commit 0bca3eb58e4e8bc62826d1d46963e4b32ceed4cb
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Thu Sep 7 20:00:11 2017 -0400
+
+    Update README.md
+
+commit 59890378f4a54745e2c9fc01bd2d7164cfefc015
+Author: Ilya Kostrikov <ikostrikov@gmail.com>
+Date:   Thu Sep 7 19:45:57 2017 -0400
+
+    Initial commit

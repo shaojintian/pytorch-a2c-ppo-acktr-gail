@@ -1,0 +1,1 @@
+{"gpu": -1, "env": "HalfCheetah-v2", "num_envs": 1, "seed": 0, "outdir": "results", "steps": 2000000, "eval_interval": 100000, "eval_n_runs": 100, "render": false, "demo": true, "load_pretrained": true, "load": "", "log_level": 20, "monitor": false, "log_interval": 1000, "update_interval": 2048, "epochs": 10, "batch_size": 64}

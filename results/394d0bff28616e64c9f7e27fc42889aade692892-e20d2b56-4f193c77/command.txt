@@ -1,0 +1,1 @@
+ppo.py --demo --load-pretrained --env HalfCheetah-v2 --gpu -1
